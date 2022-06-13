@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navbar">BMI Calculator</div>
+    <div id="all">
+      <div id="inputs">
+        <div id="w">
+          <label for="weight">Weight: </label>
+          <input type="text" name="" id="weight" />
+          <br />
+        </div>
+        <div id="h">
+          <label for="height">Height: </label>
+          <input type="text" name="" id="height" />
+          <br />
+        </div>
+
+        <input type="button" value="Calculate" id="calculate" />
+      </div>
+      <div id="out">
+        <div id="conc">
+          <div id="yourbmi">55</div>
+          <div id="yourtype">Overweight</div>
+        </div>
+        <div id="desc"></div>
+      </div>
+    </div>
+  </body>
+  <script src="bmi.js"></script>
+</html>
